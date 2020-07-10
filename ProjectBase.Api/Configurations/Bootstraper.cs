@@ -3,7 +3,7 @@ using ProjectBase.Infra.Context;
 
 namespace ProjectBase.Api.Configurations
 {
-    public static class Bootstraper
+    public static class Bootstrapper
     {
         public static IServiceCollection ResolveDependencies(this IServiceCollection services)
         {
